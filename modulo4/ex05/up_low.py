@@ -8,5 +8,7 @@ for character in input_str:
         invert_case += character.lower()
     elif character.islower():
         invert_case += character.upper()
+    else:
+        invert_case += character
 
 print(invert_case)
