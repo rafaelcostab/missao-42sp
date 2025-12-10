@@ -4,6 +4,4 @@ import math
 
 number = float(input("Me de um numero: "))
 
-number_int = int(number)
-
 print(math.ceil(number))
