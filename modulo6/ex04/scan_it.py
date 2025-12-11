@@ -12,7 +12,7 @@ text = sys.argv[2]
 
 counter = text.count(search_string)
 
-if counter > 1:
+if counter > 0:
     print(counter)
 else:
     print("none")
